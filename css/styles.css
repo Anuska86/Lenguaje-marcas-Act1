@@ -1,0 +1,55 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.colors {
+    background-color: chocolate; color: white; text-align: center;
+}
+
+#Ppal_image {
+    width: 100%;
+    height: 450px;
+
+
+
+}
+
+.news {
+    background-color: chocolate;
+    color: white;
+}
+#news_block {
+    width: 70%;
+    float: right;
+  
+    text-align: center;
+    display: inline-block;
+  }
+.paragraph_text {
+    font-size: 18px;
+}  
+
+  #without_dots {
+    list-style-type:none;
+  }
+
+  #bugs {
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .pokemon_pictures { 
+    width: 50%;
+}
+
+.logos {
+width: 3.5%;
+}
+
+#rrss {
+display: inline;
+}
+#name {
+    display: inline;
+    }

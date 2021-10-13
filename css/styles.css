@@ -18,7 +18,7 @@ body {
     background-color: chocolate;
     color: white;
 }
-#news_block {
+.news_block {
     width: 70%;
     float: right;
   
@@ -55,7 +55,7 @@ display: inline;
     }
 
 .shadow:hover {
-  background-color: yellow;
+  background-color: #D3D3D3;
 
 }    
 

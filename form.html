@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="" />
 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/form.css" rel="stylesheet" type="text/css">
     
   </head>
   <body>
@@ -23,38 +24,27 @@
       <a class="shadow" href="#about">Sobre nosotros</a>
     </div>
 
-    <div id="bugs">
-      <h2>Top 3</h2>
-      <ul id="without_dots">
-      <li><img class="pokemon_pictures rotate" src="img/venusaur.jpg" alt=Venusaur>  </li>
-      <li><img class="pokemon_pictures rotate" src="img/gyarados.jpg" alt= Gyarados> </li>
-      <li><img class="pokemon_pictures rotate" src="img/grookey.jpg" alt=Grookey>   </li>
-    </ul>
+    <div id="map">
+  <img id= "map_image"  src="img/map.jpg" alt="Mapa">
     </div>
 
     <div class="news_block">
-      <div class= "news">
-        <h2> Ganadores de la semana</h2>
-        <p class="paragraph_text"> Esta semana el ganador indiscutible ha sido Grookey, seguido
-          en el segundo y tercer puesto por Venusaur y Gyarados respectivamente. 
-          Grookey se ha enfrentado a cinco competidores y ha ganado las cinco peleas
-          sin sufrir siquiera un rasguño. 
-          ¡Otra semana será Venusaur & Gyarados!
-        </p>
-      </div>
-      <div class = "news">
-        <h2> Noticias </h2>
-        <p class="paragraph_text"> Pikachu ha sido descalificado por dar positivo en el último
-          reconocimiento veterinario. Esperamos poderle ver activo cuando
-          se cumplan las dos semanas de suspensión. 
-          Por otro lado, Charizard ha sido demandado por quemar
-          por accidente el restaurante en el que se encontraba
-          en compañía de Eevee. 
-      
-      
-        </p>
-      </div>
-     
+        <form>
+            <label for="fname">Nombre:</label><br>
+            <input type="text" id="fname" name="fname" value="Introduzca su nombre"><br>
+            <label for="lname">Corre eléctrónico:</label><br>
+            <input type="text" id="lname" name="lname" value="example@gmail.com"><br><br>
+            <label for="fname">Teléfono:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="fname">Asunto:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="fname">Mensaje:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+
+            <input type="submit" value="Submit">
+          </form>       
+
     </div>
 
  

@@ -1,7 +1,10 @@
 body {
     margin-left: 20%;
     margin-right: 20%;
+    font-family: cursive;
 }
+
+
 .colors {
     background-color: chocolate; color: white; text-align: center;
 }
@@ -9,9 +12,10 @@ body {
 #Ppal_image {
     width: 100%;
     height: 450px;
+}
 
-
-
+.div_father {
+  display: inline-flex
 }
 
 .news {

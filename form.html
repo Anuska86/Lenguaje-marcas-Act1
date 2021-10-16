@@ -9,15 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="" />
 
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link href="css/form.css" rel="stylesheet" type="text/css">
-    
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/form.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <div class="colors">
-   
-      <img id= "Ppal_image" src="img/pokemon_header.jpg" alt="Pokemons fighting">
-      <hr> 
+      <img
+        id="Ppal_image"
+        src="img/pokemon_header.jpg"
+        alt="Pokemons fighting"
+      />
+      <hr />
       <a class="shadow" href="./index.html">Inicio</a>
       <a class="shadow" href="#news">Noticias</a>
       <a class="shadow" href="./form.html">Contacto</a>
@@ -25,43 +27,51 @@
     </div>
 
     <div id="map">
-  <img id= "map_image"  src="img/map.jpg" alt="Mapa">
-    </div>
+      <ul id="without_dots">
+        <li class="text_centre"><img id="map_image" src="img/map.jpg" alt="Mapa" /></li>
+        <li class="text_centre"><span> Calle de la Piruleta,8 Pokeland</span></li>
+        <li class="text_centre"><span> 965352454 </span></li>
+        <li class="text_centre"><span> cazatupokemon@gmail.com </span></li>
+      </ul>
 
-    <div class="news_block">
+      <div class="news_block">
         <form>
-            <label for="fname">Nombre:</label><br>
-            <input type="text" id="fname" name="fname" value="Introduzca su nombre"><br>
-            <label for="lname">Corre eléctrónico:</label><br>
-            <input type="text" id="lname" name="lname" value="example@gmail.com"><br><br>
-            <label for="fname">Teléfono:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="fname">Asunto:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="fname">Mensaje:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-
-
-            <input type="submit" value="Submit">
-          </form>       
-
+          <label for="fname">Nombre:</label><br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            value="Introduzca su nombre"
+          /><br />
+          <label for="lname">Correo electrónico:</label><br />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            value="example@gmail.com"
+          /><br />
+          <label for="fname">Teléfono:</label><br />
+          <input 
+          type="text" 
+          id="fname" 
+          name="fname" 
+          value="Introduzca su teléfono"
+          /><br />
+          <label for="fname">Asunto:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+          <label for="fname">Mensaje:</label><br />
+          <textarea name="textarea" rows="4" cols="30">Escriba su mensaje aquí</textarea>
+          <br />
+          <input id="button_submit" type="submit" value="Enviar" />
+        </form>
+      </div>
     </div>
 
- 
-
-    <footer
-    class="colors"
-       
-    >
-      <div id="rrss">
-        <a class="shadow"  href="https://www.facebook.com/"><img class="logos" src="img/facebook_log.png" alt="Facebook logo"></a>
-        <a class="shadow"  href="https://www.instagram.com/"><img class="logos" src="img/instagram_log.jpg" alt="Instagram logo"></a> 
-        <a class="shadow"  href= "https://twitter.com/"><img class="logos" src="img/twitter_log.png" alt="Twitter logo"></a>
-      </div>
+    <footer class="colors futer">
       <div id="name">
         Author: Hege Refsnes
         <a href="mailto:hege@example.com">hege@example.com</a>
-    </div>
+      </div>
     </footer>
   </body>
 </html>

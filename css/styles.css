@@ -20,7 +20,7 @@ body {
 }
 .news_block {
     width: 70%;
-    float: right;
+    margin-left: 5%;
   
     text-align: center;
     display: inline-block;
@@ -70,4 +70,8 @@ display: inline;
   to {
     transform: rotate(359deg);
   }
+}
+
+.futer {
+  margin-top: 3%;
 }

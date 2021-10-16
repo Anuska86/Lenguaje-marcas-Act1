@@ -6,7 +6,7 @@ body {
 
 
 .colors {
-    background-color: chocolate; color: white; text-align: center;
+    background-color:#aca77f; color: white; text-align: center;
 }
 
 #Ppal_image {
@@ -19,7 +19,7 @@ body {
 }
 
 .news {
-    background-color: chocolate;
+    background-color: #aca77f;
     color: white;
 }
 .news_block {
@@ -78,4 +78,43 @@ display: inline;
 
 .futer {
   margin-top: 3%;
+}
+
+
+@media (max-width: 1200px) {
+
+  .pokemon_pictures { 
+    width: 60%;
+}
+#bugs {
+  width: 100%;
+
+}
+
+.news_block{
+  font-size: 15px;
+}
+.paragraph_text{
+  font-size: 15px;
+}
+
+}
+
+@media (max-width: 900px) {
+
+  .pokemon_pictures { 
+    width: 50%;
+}
+#bugs {
+  width: 80%;
+
+}
+
+.news_block{
+  font-size: 10px;
+}
+.paragraph_text{
+  font-size: 10px;
+}
+
 }
